@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.DayNight"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Did you know...?"
+        android:textSize="50dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font_2"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Romanian Geography"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font_2"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose :"
+        android:textSize="48dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font_2"
+        android:textAlignment="center"
+        android:paddingTop="20dp"
+        />
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="110dp"
+        android:text="@string/btn1"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/font_2"
+        android:padding="20dp"
+        android:textSize="40dp"
+        android:id="@+id/relief"
+        />
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="110dp"
+        android:text="@string/btn2"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/font_2"
+        android:padding="20dp"
+        android:textSize="40dp"
+        android:id="@+id/hydrography"
+        />
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="110dp"
+        android:text="@string/btn3"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/font_2"
+        android:padding="20dp"
+        android:textSize="40dp"
+        android:id="@+id/political_map"
+        />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
