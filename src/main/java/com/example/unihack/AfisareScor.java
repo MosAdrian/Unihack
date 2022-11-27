@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class AfisareScor extends AppCompatActivity {
 
@@ -23,7 +24,7 @@ public class AfisareScor extends AppCompatActivity {
         SharedPreferences sh = getSharedPreferences("MySharedPref", MODE_PRIVATE);
         String finalscore = sh.getString("finalscore", "");
 
-        afisareScor.setText("Felicitari ai obtinut scorul de:" + finalscore);
+        afisareScor.setText("Score:" + finalscore);
 
         home.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,5 +33,11 @@ public class AfisareScor extends AppCompatActivity {
             }
         });
 
+    }
+
+    public void onBackPressed() {
+        super.onBackPressed();
+        startActivity(new Intent(AfisareScor.this, MainActivity.class));
+        return;
     }
 }

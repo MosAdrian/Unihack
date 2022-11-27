@@ -57,70 +57,70 @@ public class TestConurbations extends AppCompatActivity {
                 rb = (RadioButton)findViewById(alegere1);
                 if (rb!=null) {
                     String rasp1 = (String) rb.getText();
-                    if (Objects.equals(rasp1, "corect"))
+                    if (Objects.equals(rasp1, "Bucharest"))
                         k++;
                 }
                 int alegere2 = rg2.getCheckedRadioButtonId();
                 rb = (RadioButton)findViewById(alegere2);
                 if (rb != null) {
                     String rasp2 = (String) rb.getText();
-                    if (Objects.equals(rasp2, "corect"))
+                    if (Objects.equals(rasp2, "One point nine milion"))
                         k++;
                 }
                 int alegere3 = rg3.getCheckedRadioButtonId();
                 rb = (RadioButton)findViewById(alegere3);
                 if (rb != null) {
                     String rasp3 = (String) rb.getText();
-                    if (Objects.equals(rasp3, "corect"))
+                    if (Objects.equals(rasp3, "Three"))
                         k++;
                 }
                 int alegere4 = rg4.getCheckedRadioButtonId();
                 rb = (RadioButton)findViewById(alegere4);
                 if (rb != null) {
                     String rasp4 = (String) rb.getText();
-                    if (Objects.equals(rasp4, "corect"))
+                    if (Objects.equals(rasp4, "Yes"))
                         k++;
                 }
                 int alegere5 = rg5.getCheckedRadioButtonId();
                 rb = (RadioButton)findViewById(alegere5);
                 if (rb != null) {
                     String rasp5 = (String) rb.getText();
-                    if (Objects.equals(rasp5, "corect"))
+                    if (Objects.equals(rasp5, "Iasi, Timisoara, Constanta ,Cluj-Napoca and Craiova"))
                         k++;
                 }
                 int alegere6 = rg6.getCheckedRadioButtonId();
                 rb = (RadioButton)findViewById(alegere6);
                 if (rb != null) {
                     String rasp6 = (String) rb.getText();
-                    if (Objects.equals(rasp6, "corect"))
+                    if (Objects.equals(rasp6, "Prahova"))
                         k++;
                 }
                 int alegere7 = rg7.getCheckedRadioButtonId();
                 rb = (RadioButton)findViewById(alegere7);
                 if (rb != null) {
                     String rasp7 = (String) rb.getText();
-                    if (Objects.equals(rasp7, "corect"))
+                    if (Objects.equals(rasp7, "One"))
                         k++;
                 }
                 int alegere8 = rg8.getCheckedRadioButtonId();
                 rb = (RadioButton)findViewById(alegere8);
                 if (rb != null) {
                     String rasp8 = (String) rb.getText();
-                    if (Objects.equals(rasp8, "corect"))
+                    if (Objects.equals(rasp8, "Brasov"))
                         k++;
                 }
                 int alegere9 = rg9.getCheckedRadioButtonId();
                 rb = (RadioButton)findViewById(alegere9);
                 if (rb != null) {
                     String rasp9 = (String) rb.getText();
-                    if (Objects.equals(rasp9, "corect"))
+                    if (Objects.equals(rasp9, "Two point one milion"))
                         k++;
                 }
                 int alegere10 = rg10.getCheckedRadioButtonId();
                 rb = (RadioButton)findViewById(alegere10);
                 if (rb != null) {
                     String rasp10 = (String) rb.getText();
-                    if (Objects.equals(rasp10, "corect"))
+                    if (Objects.equals(rasp10, "Bucharest"))
                         k++;
                 }
 
@@ -145,5 +145,13 @@ public class TestConurbations extends AppCompatActivity {
 
 
 
+
+    }
+
+    public void onBackPressed() {
+        super.onBackPressed();
+        Toast.makeText(TestConurbations.this,"Finish the test before exit",Toast.LENGTH_LONG).show();
+        startActivity(new Intent(TestConurbations.this, TestConurbations.class));
+        return;
     }
 }

@@ -20,6 +20,12 @@
         android:theme="@style/Theme.AppCompat.Light"
         tools:targetApi="31">
         <activity
+            android:name=".TestRelief2"
+            android:exported="false" />
+        <activity
+            android:name=".TestRelief1"
+            android:exported="false" />
+        <activity
             android:name=".TestHydrography"
             android:exported="false" />
         <activity
@@ -40,9 +46,7 @@
         <activity
             android:name=".LectiiHydrography"
             android:exported="false" />
-        <activity
-            android:name=".Relief3"
-            android:exported="false" />
+
         <activity
             android:name=".Relief2"
             android:exported="false" />

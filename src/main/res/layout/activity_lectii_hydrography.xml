@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LectiiRelief">
+    tools:context=".LectiiRelief"
+    android:background="#2AFA00"
+    >
 
     <ScrollView
         android:layout_width="match_parent"
@@ -36,6 +38,7 @@
                 android:fontFamily="@font/font_2"
                 android:textSize="30dp"
                 android:id="@+id/lessonOneHydrography"
+                android:background="@drawable/main_btns"
                 />
 
 

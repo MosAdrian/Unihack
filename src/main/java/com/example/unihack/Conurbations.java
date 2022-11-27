@@ -5,6 +5,8 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -18,9 +20,13 @@ public class Conurbations extends AppCompatActivity {
         setContentView(R.layout.activity_conurbations);
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
+        ColorDrawable colorDrawable
+                = new ColorDrawable(Color.parseColor("#e6e6e6"));
 
-        Button test = (Button)findViewById(R.id.conurbationsTestOne);
-        test.setOnClickListener(new View.OnClickListener() {
+        actionBar.setBackgroundDrawable(colorDrawable);
+
+        Button btn = (Button)findViewById(R.id.conurbationsTestOne);
+        btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Conurbations.this, TestConurbations.class));

@@ -5,7 +5,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TestConurbations">
+    tools:context=".TestConurbations"
+    android:background="#e6e6e6"
+    >
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,6 +17,15 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             tools:ignore="MissingConstraints">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Test"
+                android:textSize="60dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/font_2"
+                />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -24,7 +35,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aici vine intreabarea\nAici vine intreabarea\nAici vine intreabarea\n"
+                    android:text="Which river makes the northen borter for a short distance?"
                     android:textColor="@color/black"
                     android:fontFamily="@font/font_2"
                     android:textSize="25dp"
@@ -33,25 +44,25 @@
                 <RadioGroup
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/rg1"
+                    android:id="@+id/rg1_2"
                     tools:ignore="MissingConstraints">
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="corect"
-                        android:id="@+id/rb1"
+                        android:text="Danube"
+                        android:id="@+id/rb1_2"
                         />
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
-                        android:id="@+id/rb2"/>
+                        android:text="Mures"
+                        android:id="@+id/rb2_2"/>
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
-                        android:id="@+id/rb3"/>
+                        android:text="Tisza"
+                        android:id="@+id/rb3_2"/>
                 </RadioGroup>
 
             </LinearLayout>
@@ -64,7 +75,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aici vine intreabarea\nAici vine intreabarea\nAici vine intreabarea\n"
+                    android:text="Which is the navigable river?"
                     android:textColor="@color/black"
                     android:fontFamily="@font/font_2"
                     android:textSize="25dp"
@@ -73,25 +84,25 @@
                 <RadioGroup
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/rg2"
+                    android:id="@+id/rg2_2"
                     tools:ignore="MissingConstraints">
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
-                        android:id="@+id/rb4"
+                        android:text="Bega"
+                        android:id="@+id/rb4_2"
                         />
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
-                        android:id="@+id/rb5"/>
+                        android:text="Timis"
+                        android:id="@+id/rb5_2"/>
                     <RadioButton
                         android:layout_width="wrap_content"
+                        android:text="Tisza"
                         android:layout_height="wrap_content"
-                        android:text="corect"
-                        android:id="@+id/rb6"/>
+                        android:id="@+id/rb6_2"/>
                 </RadioGroup>
 
             </LinearLayout>
@@ -104,7 +115,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aici vine intreabarea\nAici vine intreabarea\nAici vine intreabarea\n"
+                    android:text="Is Somesul one of the largest rivers in the south of Romania?"
                     android:textColor="@color/black"
                     android:fontFamily="@font/font_2"
                     android:textSize="25dp"
@@ -113,25 +124,25 @@
                 <RadioGroup
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/rg3"
+                    android:id="@+id/rg3_2"
                     tools:ignore="MissingConstraints">
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
-                        android:id="@+id/rb7"
+                        android:text="True"
+                        android:id="@+id/rb7_2"
                         />
                     <RadioButton
                         android:layout_width="wrap_content"
+                        android:text="False"
                         android:layout_height="wrap_content"
-                        android:text="corect"
-                        android:id="@+id/rb8"/>
+                        android:id="@+id/rb8_2"/>
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
-                        android:id="@+id/rb9"/>
+                        android:text="Maybe"
+                        android:id="@+id/rb9_2"/>
                 </RadioGroup>
 
             </LinearLayout>
@@ -144,7 +155,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aici vine intreabarea\nAici vine intreabarea\nAici vine intreabarea\n"
+                    android:text="What is the climate that influences the hydrographic and hydrological state of Romania?"
                     android:textColor="@color/black"
                     android:fontFamily="@font/font_2"
                     android:textSize="25dp"
@@ -153,25 +164,25 @@
                 <RadioGroup
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/rg4"
+                    android:id="@+id/rg4_2"
                     tools:ignore="MissingConstraints">
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="corect"
-                        android:id="@+id/rb10"
+                        android:text="Oceanic"
+                        android:id="@+id/rb10_2"
                         />
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
-                        android:id="@+id/rb11"/>
+                        android:text="Temperate-Continental"
+                        android:id="@+id/rb11_2"/>
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
-                        android:id="@+id/rb12"/>
+                        android:text="Dry"
+                        android:id="@+id/rb12_2"/>
                 </RadioGroup>
 
             </LinearLayout>
@@ -184,7 +195,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aici vine intreabarea\nAici vine intreabarea\nAici vine intreabarea\n"
+                    android:text="Where can lakes be found?"
                     android:textColor="@color/black"
                     android:fontFamily="@font/font_2"
                     android:textSize="25dp"
@@ -193,25 +204,25 @@
                 <RadioGroup
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/rg5"
+                    android:id="@+id/rg5_2"
                     tools:ignore="MissingConstraints">
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="corect"
-                        android:id="@+id/rb13"
+                        android:text="In plains"
+                        android:id="@+id/rb13_2"
                         />
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
-                        android:id="@+id/rb14"/>
+                        android:text="In mountains and plateaus"
+                        android:id="@+id/rb14_2"/>
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
-                        android:id="@+id/rb15"/>
+                        android:text="On all levels of relief"
+                        android:id="@+id/rb15_2"/>
                 </RadioGroup>
 
             </LinearLayout>
@@ -224,7 +235,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aici vine intreabarea\nAici vine intreabarea\nAici vine intreabarea\n"
+                    android:text="Are the largest lakes found in the Razim lagoon system the biggest in Romania?"
                     android:textColor="@color/black"
                     android:fontFamily="@font/font_2"
                     android:textSize="25dp"
@@ -233,25 +244,25 @@
                 <RadioGroup
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/rg6"
+                    android:id="@+id/rg6_2"
                     tools:ignore="MissingConstraints">
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
-                        android:id="@+id/rb16"
+                        android:text="True"
+                        android:id="@+id/rb16_2"
                         />
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
-                        android:id="@+id/rb17"/>
+                        android:text="False"
+                        android:id="@+id/rb17_2"/>
                     <RadioButton
                         android:layout_width="wrap_content"
+                        android:text="Maybe"
                         android:layout_height="wrap_content"
-                        android:text="corect"
-                        android:id="@+id/rb18"/>
+                        android:id="@+id/rb18_2"/>
                 </RadioGroup>
 
             </LinearLayout>
@@ -264,7 +275,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aici vine intreabarea\nAici vine intreabarea\nAici vine intreabarea\n"
+                    android:text="Which of theese three lakes is volcanic?"
                     android:textColor="@color/black"
                     android:fontFamily="@font/font_2"
                     android:textSize="25dp"
@@ -273,25 +284,25 @@
                 <RadioGroup
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/rg7"
+                    android:id="@+id/rg7_2"
                     tools:ignore="MissingConstraints">
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
-                        android:id="@+id/rb19"
+                        android:text="Saint Ana"
+                        android:id="@+id/rb19_2"
                         />
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="corect"
-                        android:id="@+id/rb20"/>
+                        android:text="Bucura"
+                        android:id="@+id/rb20_2"/>
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
-                        android:id="@+id/rb21"
+                        android:text="Red Lake"
+                        android:id="@+id/rb21_2"
                         />
                 </RadioGroup>
 
@@ -305,7 +316,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aici vine intreabarea\nAici vine intreabarea\nAici vine intreabarea\n"
+                    android:text="Are there any lakes with hydropower intresest?"
                     android:textColor="@color/black"
                     android:fontFamily="@font/font_2"
                     android:textSize="25dp"
@@ -314,25 +325,25 @@
                 <RadioGroup
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/rg8"
+                    android:id="@+id/rg8_2"
                     tools:ignore="MissingConstraints">
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="corect"
-                        android:id="@+id/rb22"
+                        android:text="True"
+                        android:id="@+id/rb22_2"
                         />
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
-                        android:id="@+id/rb23"/>
+                        android:text="Flase"
+                        android:id="@+id/rb23_2"/>
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
-                        android:id="@+id/rb24"/>
+                        android:text="Maybe"
+                        android:id="@+id/rb24_2"/>
                 </RadioGroup>
 
             </LinearLayout>
@@ -345,7 +356,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aici vine intreabarea\nAici vine intreabarea\nAici vine intreabarea\n"
+                    android:text="Which river is the largest in Romania?"
                     android:textColor="@color/black"
                     android:fontFamily="@font/font_2"
                     android:textSize="25dp"
@@ -354,25 +365,25 @@
                 <RadioGroup
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/rg9"
+                    android:id="@+id/rg9_2"
                     tools:ignore="MissingConstraints">
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
-                        android:id="@+id/rb25"
+                        android:text="Danube"
+                        android:id="@+id/rb25_2"
                         />
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="corect"
-                        android:id="@+id/rb26"/>
+                        android:text="Prut"
+                        android:id="@+id/rb26_2"/>
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
-                        android:id="@+id/rb27"/>
+                        android:text="Tisza"
+                        android:id="@+id/rb27_2"/>
                 </RadioGroup>
 
             </LinearLayout>
@@ -385,7 +396,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aici vine intreabarea\nAici vine intreabarea\nAici vine intreabarea\n"
+                    android:text="What types of aquantic units does Romania benefit of?"
                     android:textColor="@color/black"
                     android:fontFamily="@font/font_2"
                     android:textSize="25dp"
@@ -394,25 +405,25 @@
                 <RadioGroup
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/rg10"
+                    android:id="@+id/rg10_2"
                     tools:ignore="MissingConstraints">
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
-                        android:id="@+id/rb28"
+                        android:text="Rivers"
+                        android:id="@+id/rb28_2"
                         />
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="corect"
-                        android:id="@+id/rb29"/>
+                        android:text="Lakes"
+                        android:id="@+id/rb29_2"/>
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
-                        android:id="@+id/rb30"/>
+                        android:text="All of them"
+                        android:id="@+id/rb30_2"/>
                 </RadioGroup>
 
             </LinearLayout>
@@ -426,7 +437,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Submit"
-                    android:id="@+id/submitBtn"
+                    android:id="@+id/submitBtn_2"
+                    android:background="@drawable/submit_btns"
+                    android:fontFamily="@font/font_2"
+                    android:layout_marginBottom="30dp"
+
                     />
             </LinearLayout>
 

@@ -5,7 +5,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TestConurbations">
+    tools:context=".TestConurbations"
+    android:background="#e6e6e6"
+    >
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,6 +17,15 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             tools:ignore="MissingConstraints">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Test"
+                android:textSize="60dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/font_2"
+                />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -24,7 +35,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aici vine intreabarea\nAici vine intreabarea\nAici vine intreabarea\n"
+                    android:text="Which is the capital of Romania?"
                     android:textColor="@color/black"
                     android:fontFamily="@font/font_2"
                     android:textSize="25dp"
@@ -39,18 +50,18 @@
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="corect"
+                        android:text="Bucharest"
                         android:id="@+id/rb1"
                         />
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
+                        android:text="Cluj-Napoca"
                         android:id="@+id/rb2"/>
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
+                        android:text="Timisoara"
                         android:id="@+id/rb3"/>
                 </RadioGroup>
 
@@ -64,7 +75,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aici vine intreabarea\nAici vine intreabarea\nAici vine intreabarea\n"
+                    android:text="What is the population of Bucharest?"
                     android:textColor="@color/black"
                     android:fontFamily="@font/font_2"
                     android:textSize="25dp"
@@ -79,18 +90,18 @@
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
+                        android:text="One point eight million"
                         android:id="@+id/rb4"
                         />
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
+                        android:text="One point nine milion"
                         android:id="@+id/rb5"/>
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="corect"
+                        android:text="Two point three million"
                         android:id="@+id/rb6"/>
                 </RadioGroup>
 
@@ -104,7 +115,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aici vine intreabarea\nAici vine intreabarea\nAici vine intreabarea\n"
+                    android:text="How many cities are there over two hundred thousand population?"
                     android:textColor="@color/black"
                     android:fontFamily="@font/font_2"
                     android:textSize="25dp"
@@ -119,18 +130,18 @@
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
+                        android:text="Five"
                         android:id="@+id/rb7"
                         />
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="corect"
+                        android:text="Eleven"
                         android:id="@+id/rb8"/>
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
+                        android:text="Three"
                         android:id="@+id/rb9"/>
                 </RadioGroup>
 
@@ -144,7 +155,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aici vine intreabarea\nAici vine intreabarea\nAici vine intreabarea\n"
+                    android:text="Is Braila-Galati's metropolitan area inhabitans number greater than Constanta's number of inhabitants?"
                     android:textColor="@color/black"
                     android:fontFamily="@font/font_2"
                     android:textSize="25dp"
@@ -159,18 +170,18 @@
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="corect"
+                        android:text="Yes"
                         android:id="@+id/rb10"
                         />
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
+                        android:text="No"
                         android:id="@+id/rb11"/>
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
+                        android:text="No one knows"
                         android:id="@+id/rb12"/>
                 </RadioGroup>
 
@@ -184,7 +195,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aici vine intreabarea\nAici vine intreabarea\nAici vine intreabarea\n"
+                    android:text="Which of theese five cities are ranked among the most populous cities in Europe Union?"
                     android:textColor="@color/black"
                     android:fontFamily="@font/font_2"
                     android:textSize="25dp"
@@ -199,18 +210,18 @@
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="corect"
+                        android:text="Iasi, Timisoara, Constanta ,Cluj-Napoca and Craiova"
                         android:id="@+id/rb13"
                         />
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
+                        android:text="Oradea, Timisoara, Braila, Craiova and Galati"
                         android:id="@+id/rb14"/>
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
+                        android:text="Iasi, Oradea, Ploiesti, Buchaerst and Craiova"
                         android:id="@+id/rb15"/>
                 </RadioGroup>
 
@@ -224,7 +235,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aici vine intreabarea\nAici vine intreabarea\nAici vine intreabarea\n"
+                    android:text="What is Ploiesti's county name?"
                     android:textColor="@color/black"
                     android:fontFamily="@font/font_2"
                     android:textSize="25dp"
@@ -239,18 +250,18 @@
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
+                        android:text="Prahova"
                         android:id="@+id/rb16"
                         />
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
+                        android:text="Bihor"
                         android:id="@+id/rb17"/>
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="corect"
+                        android:text="Ploiesti"
                         android:id="@+id/rb18"/>
                 </RadioGroup>
 
@@ -264,7 +275,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aici vine intreabarea\nAici vine intreabarea\nAici vine intreabarea\n"
+                    android:text="How many cities are between four hundred thousands and three hundred forty thousand population?"
                     android:textColor="@color/black"
                     android:fontFamily="@font/font_2"
                     android:textSize="25dp"
@@ -279,18 +290,18 @@
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
+                        android:text="One"
                         android:id="@+id/rb19"
                         />
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="corect"
+                        android:text="Five"
                         android:id="@+id/rb20"/>
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
+                        android:text="Eleven"
                         android:id="@+id/rb21"
                         />
                 </RadioGroup>
@@ -305,7 +316,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aici vine intreabarea\nAici vine intreabarea\nAici vine intreabarea\n"
+                    android:text="Which city is second last in the top ten by population in Romania?"
                     android:textColor="@color/black"
                     android:fontFamily="@font/font_2"
                     android:textSize="25dp"
@@ -320,18 +331,18 @@
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="corect"
+                        android:text="Constanta"
                         android:id="@+id/rb22"
                         />
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
+                        android:text="Oradea"
                         android:id="@+id/rb23"/>
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
+                        android:text="Brasov"
                         android:id="@+id/rb24"/>
                 </RadioGroup>
 
@@ -345,7 +356,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aici vine intreabarea\nAici vine intreabarea\nAici vine intreabarea\n"
+                    android:text="What is the number of people living in the capital of Romania (Bucharerst)"
                     android:textColor="@color/black"
                     android:fontFamily="@font/font_2"
                     android:textSize="25dp"
@@ -360,18 +371,18 @@
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
+                        android:text="One point nine milion"
                         android:id="@+id/rb25"
                         />
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="corect"
+                        android:text="Two point one milion"
                         android:id="@+id/rb26"/>
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
+                        android:text="Two point five milion"
                         android:id="@+id/rb27"/>
                 </RadioGroup>
 
@@ -385,7 +396,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aici vine intreabarea\nAici vine intreabarea\nAici vine intreabarea\n"
+                    android:text="What is the biggest city in Romania"
                     android:textColor="@color/black"
                     android:fontFamily="@font/font_2"
                     android:textSize="25dp"
@@ -400,18 +411,18 @@
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
+                        android:text="Cluj-Napoca"
                         android:id="@+id/rb28"
                         />
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="corect"
+                        android:text="Ineu"
                         android:id="@+id/rb29"/>
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gresit"
+                        android:text="Bucharest"
                         android:id="@+id/rb30"/>
                 </RadioGroup>
 
@@ -427,6 +438,9 @@
                     android:layout_height="wrap_content"
                     android:text="Submit"
                     android:id="@+id/submitBtn"
+                    android:background="@drawable/submit_btns"
+                    android:fontFamily="@font/font_2"
+                    android:layout_marginBottom="30dp"
                     />
             </LinearLayout>
 

@@ -5,6 +5,8 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -23,6 +25,10 @@ public class LectiiRelief extends AppCompatActivity {
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
+        ColorDrawable colorDrawable
+                = new ColorDrawable(Color.parseColor("#2AFA00"));
+
+        actionBar.setBackgroundDrawable(colorDrawable);
 
         Button lsn1 = (Button)findViewById(R.id.lessonOneRelief);
         Button lsn2 = (Button)findViewById(R.id.lessonTwoRelief);
@@ -40,12 +46,7 @@ public class LectiiRelief extends AppCompatActivity {
                 startActivity(new Intent(LectiiRelief.this, Relief2.class));
             }
         });
-        /*lsn3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(LectiiRelief.this, Relief3.class));
-            }
-        });*/
+
     }
 
     @Override
